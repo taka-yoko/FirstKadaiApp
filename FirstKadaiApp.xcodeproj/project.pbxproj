@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDCF92131D67F0A500B6F211 /* Old.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Old.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCF92131D67F0A500B6F211 /* FirstKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCF92161D67F0A600B6F211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCF92181D67F0A600B6F211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDCF921B1D67F0A600B6F211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		CDCF920A1D67F0A500B6F211 = {
 			isa = PBXGroup;
 			children = (
-				CDCF92151D67F0A600B6F211 /* Old */,
+				CDCF92151D67F0A600B6F211 /* FirstKadaiApp */,
 				CDCF92141D67F0A500B6F211 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		CDCF92141D67F0A500B6F211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDCF92131D67F0A500B6F211 /* Old.app */,
+				CDCF92131D67F0A500B6F211 /* FirstKadaiApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDCF92151D67F0A600B6F211 /* Old */ = {
+		CDCF92151D67F0A600B6F211 /* FirstKadaiApp */ = {
 			isa = PBXGroup;
 			children = (
 				CDCF92161D67F0A600B6F211 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				CDCF921F1D67F0A600B6F211 /* LaunchScreen.storyboard */,
 				CDCF92221D67F0A600B6F211 /* Info.plist */,
 			);
-			path = Old;
+			name = FirstKadaiApp;
+			path = FirstkadaiApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDCF92121D67F0A500B6F211 /* Old */ = {
+		CDCF92121D67F0A500B6F211 /* FirstKadaiApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDCF92251D67F0A600B6F211 /* Build configuration list for PBXNativeTarget "Old" */;
+			buildConfigurationList = CDCF92251D67F0A600B6F211 /* Build configuration list for PBXNativeTarget "FirstKadaiApp" */;
 			buildPhases = (
 				CDCF920F1D67F0A500B6F211 /* Sources */,
 				CDCF92101D67F0A500B6F211 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = Old;
+			name = FirstKadaiApp;
 			productName = Old;
-			productReference = CDCF92131D67F0A500B6F211 /* Old.app */;
+			productReference = CDCF92131D67F0A500B6F211 /* FirstKadaiApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CDCF920E1D67F0A500B6F211 /* Build configuration list for PBXProject "Old" */;
+			buildConfigurationList = CDCF920E1D67F0A500B6F211 /* Build configuration list for PBXProject "FirstKadaiApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDCF92121D67F0A500B6F211 /* Old */,
+				CDCF92121D67F0A500B6F211 /* FirstKadaiApp */,
 			);
 		};
 /* End PBXProject section */
@@ -249,10 +250,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Old/Info.plist;
+				INFOPLIST_FILE = FirstKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takayoshi.yokoyama.Old;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takayoshi.yokoyama.FirstKadaiApp;
+				PRODUCT_NAME = FirstKadaiApp;
 			};
 			name = Debug;
 		};
@@ -260,17 +261,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Old/Info.plist;
+				INFOPLIST_FILE = FirstKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takayoshi.yokoyama.Old;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takayoshi.yokoyama.FirstKadaiApp;
+				PRODUCT_NAME = FirstKadaiApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDCF920E1D67F0A500B6F211 /* Build configuration list for PBXProject "Old" */ = {
+		CDCF920E1D67F0A500B6F211 /* Build configuration list for PBXProject "FirstKadaiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDCF92231D67F0A600B6F211 /* Debug */,
@@ -279,13 +280,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDCF92251D67F0A600B6F211 /* Build configuration list for PBXNativeTarget "Old" */ = {
+		CDCF92251D67F0A600B6F211 /* Build configuration list for PBXNativeTarget "FirstKadaiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDCF92261D67F0A600B6F211 /* Debug */,
 				CDCF92271D67F0A600B6F211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
